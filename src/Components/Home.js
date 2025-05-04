@@ -6,7 +6,6 @@ import c1 from "../Components/Assets/Our Levers/consultation.jpg";
 import play1 from "../Components/Assets/Our Levers/our-ser.png";
 import play2 from "../Components/Assets/Our Levers/our-ser-back.png";
 import b1 from "../Components/Assets/Bus-Talent/business-img.jpg";
-import t1 from "../Components/Assets/Bus-Talent/talent-img.png";
 import arrow from "./Assets/For-status/Arrow.svg";
 import mes from "./Assets/Home-Header-Footer/message-color.png";
 import { Link } from "react-router-dom";
