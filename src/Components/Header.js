@@ -1,14 +1,14 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../Components/Assets/Home-Header-Footer/hussme-sep-logo.png";
 import "../Components/Header.css";
 import cross from "../Components/Assets/Home-Header-Footer/cross.png";
-import { useUser } from "../Components/Context/UserContext"; // Import UserContext
-import { useState } from "react"; // Import useState
+// import { useUser } from "../Components/Context/UserContext"; // Import UserContext
+// import { useState } from "react"; // Import useState
 
 export function Header() {
-  const { user, logout } = useUser(); // Get user and logout from context
-  const [showLogout, setShowLogout] = useState(false); // State to toggle logout button visibility
-  const navigate = useNavigate();
+  // const { user, logout } = useUser(); // Get user and logout from context
+  // const [showLogout, setShowLogout] = useState(false); // State to toggle logout button visibility
+  // const navigate = useNavigate();
 
   function showSidebar(event) {
     event.preventDefault();
@@ -23,32 +23,33 @@ export function Header() {
   }
 
   // Function to toggle the logout dropdown
-  const toggleLogout = () => {
-    setShowLogout(!showLogout);
-  };
+  // const toggleLogout = () => {
+  //   setShowLogout(!showLogout);
+  // };
 
   // Function to handle logout click
-  const handleLogout = (e) => {
-    e.preventDefault();
-    logout();
-    setShowLogout(false); // Hide the logout button after logging out
-  };
+  // const handleLogout = (e) => {
+  //   e.preventDefault();
+  //   logout();
+  //   setShowLogout(false); // Hide the logout button after logging out
+  // };
 
   // Function to navigate to change password page
-  const handleChangePassword = (e) => {
-    e.preventDefault();
-    setShowLogout(false); // Hide the dropdown
-    navigate("/reset-password");
-  };
+  // const handleChangePassword = (e) => {
+  //   e.preventDefault();
+  //   setShowLogout(false); // Hide the dropdown
+  //   navigate("/reset-password");
+  // };
 
   // Function to close dropdown when clicking outside
   const closeDropdown = () => {
-    setShowLogout(false);
+    // setShowLogout(false);
   };
 
   return (
     <div className="nav-bar" onClick={closeDropdown}>
       <header>
+      {/* <Link href="#" class="animated-link">HoverMe</Link> */}
         <nav>
           <ul className="sidebar">
             <li onClick={hideSidebar}>

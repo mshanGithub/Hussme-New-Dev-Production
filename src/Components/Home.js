@@ -91,6 +91,7 @@ export function Home() {
               ></path>
             </svg>
           </div>
+         
 
           <div className="home-des">
             Empowering small retail brands to grow through smart, accessible
@@ -240,6 +241,30 @@ export function Home() {
             </div>
           </div>
         </div>
+
+        {/* Talent Card */}
+        {/* <div className="talent-container">
+          <div className="talent-img-section">
+            <img src={t1} alt="" />
+          </div>
+          <div className="talent-content-section">
+            <div className="content-list">
+              <div className="content-heading">Talent</div>
+              <ul>
+                <li>Individual profiling</li>
+                <li>Flexible working schedule and on-demand rate</li>
+                <li>Business reach out with the work request</li>
+                <li>Online trainings and carrier assistance</li>
+              </ul>
+              <Link to="/service">
+                <button className="button-57">
+                  <span className="text">Package & Pricing</span>
+                  <span>Package & Pricing</span>
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div> */}
       </div>
       {/* End of Business & Talent Card Section  */}
 
@@ -314,7 +339,7 @@ export function Home() {
                     05, Comments
                   </div>
                 </div>
-                <div className="home-blog-title">
+                <div className="blog-title">
                   <Link to="/digital">
                     <h2>Digital Marketing</h2>
                   </Link>
@@ -345,7 +370,7 @@ export function Home() {
                     09 Comments
                   </div>
                 </div>
-                <div className="home-blog-title">
+                <div className="blog-title">
                   <Link to="/digital">
                     <h2>Hire easily HR candidates in few seconds</h2>
                   </Link>
@@ -376,7 +401,7 @@ export function Home() {
                     02 Comments
                   </div>
                 </div>
-                <div className="home-blog-title">
+                <div className="blog-title">
                   <Link to="/digital">
                     <h2>Get few solution to hire a best candidate </h2>
                   </Link>
@@ -407,7 +432,7 @@ export function Home() {
                     05 Comments
                   </div>
                 </div>
-                <div className="home-blog-title">
+                <div className="blog-title">
                   <Link to="/digital">
                     <h2>Capitalize on low hanging fruit</h2>
                   </Link>
