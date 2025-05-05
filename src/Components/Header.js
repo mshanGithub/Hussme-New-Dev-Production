@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../Components/Assets/Home-Header-Footer/hussme-sep-logo.png";
 import "../Components/Header.css";
 import cross from "../Components/Assets/Home-Header-Footer/cross.png";
@@ -22,19 +23,19 @@ export function Header() {
     sidebar.style.display = "none";
   }
 
-  // Function to toggle the logout dropdown
+  // // Function to toggle the logout dropdown
   // const toggleLogout = () => {
   //   setShowLogout(!showLogout);
   // };
 
-  // Function to handle logout click
+  // // Function to handle logout click
   // const handleLogout = (e) => {
   //   e.preventDefault();
   //   logout();
   //   setShowLogout(false); // Hide the logout button after logging out
   // };
 
-  // Function to navigate to change password page
+  // // Function to navigate to change password page
   // const handleChangePassword = (e) => {
   //   e.preventDefault();
   //   setShowLogout(false); // Hide the dropdown
@@ -49,7 +50,6 @@ export function Header() {
   return (
     <div className="nav-bar" onClick={closeDropdown}>
       <header>
-      {/* <Link href="#" class="animated-link">HoverMe</Link> */}
         <nav>
           <ul className="sidebar">
             <li onClick={hideSidebar}>
@@ -207,7 +207,7 @@ export function Header() {
                   height="40px"
                   viewBox="0 -960 960 960"
                   width="40px"
-                  fill="9747FF"
+                  fill="#FFFFFF"
                 >
                   <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
                 </svg>

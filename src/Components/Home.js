@@ -91,7 +91,6 @@ export function Home() {
               ></path>
             </svg>
           </div>
-         
 
           <div className="home-des">
             Empowering small retail brands to grow through smart, accessible
@@ -225,12 +224,12 @@ export function Home() {
             <div className="content-list">
               <div className="content-heading">Business</div>
               <ul>
-                <li>Business profiling and plan</li>
-                <li>Quick on-demand staff selection on contract basis</li>
-                <li>Dedicated recruitment team for full-time hiring</li>
-                <li>New hire online training</li>
-                <li>Website hosting and regular maintenance</li>
-                <li>Facebook, Instagram, and X marketing</li>
+                <li><div className="dot-list"></div>Business profiling and plan</li>
+                <li><div className="dot-list"></div>Quick on-demand staff selection on contract basis</li>
+                <li><div className="dot-list"></div>Dedicated recruitment team for full-time hiring</li>
+                <li><div className="dot-list"></div>New hire online training</li>
+                <li><div className="dot-list"></div>Website hosting and regular maintenance</li>
+                <li><div className="dot-list"></div>Facebook, Instagram, and X marketing</li>
               </ul>
               <Link to="/service">
                 <button className="button-57">
@@ -241,30 +240,6 @@ export function Home() {
             </div>
           </div>
         </div>
-
-        {/* Talent Card */}
-        {/* <div className="talent-container">
-          <div className="talent-img-section">
-            <img src={t1} alt="" />
-          </div>
-          <div className="talent-content-section">
-            <div className="content-list">
-              <div className="content-heading">Talent</div>
-              <ul>
-                <li>Individual profiling</li>
-                <li>Flexible working schedule and on-demand rate</li>
-                <li>Business reach out with the work request</li>
-                <li>Online trainings and carrier assistance</li>
-              </ul>
-              <Link to="/service">
-                <button className="button-57">
-                  <span className="text">Package & Pricing</span>
-                  <span>Package & Pricing</span>
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div> */}
       </div>
       {/* End of Business & Talent Card Section  */}
 
@@ -339,7 +314,7 @@ export function Home() {
                     05, Comments
                   </div>
                 </div>
-                <div className="blog-title">
+                <div className="home-blog-title">
                   <Link to="/digital">
                     <h2>Digital Marketing</h2>
                   </Link>
@@ -370,7 +345,7 @@ export function Home() {
                     09 Comments
                   </div>
                 </div>
-                <div className="blog-title">
+                <div className="home-blog-title">
                   <Link to="/digital">
                     <h2>Hire easily HR candidates in few seconds</h2>
                   </Link>
@@ -401,7 +376,7 @@ export function Home() {
                     02 Comments
                   </div>
                 </div>
-                <div className="blog-title">
+                <div className="home-blog-title">
                   <Link to="/digital">
                     <h2>Get few solution to hire a best candidate </h2>
                   </Link>
@@ -432,7 +407,7 @@ export function Home() {
                     05 Comments
                   </div>
                 </div>
-                <div className="blog-title">
+                <div className="home-blog-title">
                   <Link to="/digital">
                     <h2>Capitalize on low hanging fruit</h2>
                   </Link>

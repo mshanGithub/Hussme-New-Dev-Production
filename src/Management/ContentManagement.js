@@ -610,7 +610,7 @@ export function ContentManagement() {
             <div className="task-arrows">
               <img
                 src={backicn}
-                 
+                alt=""
                 className="assign-task-btn back"
                 onClick={scrollLeft}
               />
@@ -650,7 +650,7 @@ export function ContentManagement() {
               )}
               <img
                 src={nexticn}
-                 
+                alt=""
                 className="assign-task-btn next"
                 onClick={scrollRight}
               />
@@ -712,7 +712,7 @@ export function ContentManagement() {
                   <img
                     src="https://i.ibb.co/MxsfPnN5/9198056-4116738.jpg"
                     className="task-preview-img"
-                     
+                    alt=""
                   />
                 </div>
               </div>
@@ -787,7 +787,7 @@ export function ContentManagement() {
           <div className="task-arrows">
             <img
               src={backicn}
-               
+              alt=""
               className="assign-task-btn back"
               onClick={approvedScrollLeft}
             />
@@ -825,7 +825,7 @@ export function ContentManagement() {
 
             <img
               src={nexticn}
-               
+              alt=""
               className="assign-task-btn next"
               onClick={approvedScrollRight}
             />
@@ -889,7 +889,7 @@ export function ContentManagement() {
                   "https://i.ibb.co/MxsfPnN5/9198056-4116738.jpg"
                 }
                 className="task-preview-img"
-                 
+                alt=""
               />
             </div>
           </div>
